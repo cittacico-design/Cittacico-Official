@@ -714,6 +714,18 @@ h1.page-title {
   opacity: 0;
   animation: fadeUp 0.8s 1.4s forwards ease-out;
 }
+.hero-manifesto {
+  max-width: 28rem;
+  margin: 1.25rem auto 0;
+  padding: 0 1.5rem;
+  font-size: clamp(0.8rem, 1.75vw, 0.95rem);
+  font-weight: 300;
+  line-height: 1.65;
+  letter-spacing: 0.04em;
+  color: var(--muted);
+  opacity: 0;
+  animation: fadeUp 0.85s 1.55s forwards ease-out;
+}
 @keyframes fadeUp {
   from {
     opacity: 0;
@@ -2565,6 +2577,26 @@ body.bag-open {
 .story-text p {
   color: var(--muted);
   line-height: 1.7;
+}
+.story-quote {
+  margin: 2rem 0 0;
+  padding-left: 1.25rem;
+  border-left: 1px solid rgba(201, 169, 110, 0.35);
+  font-family: var(--font-serif);
+  font-size: clamp(1.05rem, 2.2vw, 1.35rem);
+  font-style: italic;
+  color: var(--foreground);
+  line-height: 1.55;
+}
+.story-quote cite {
+  display: block;
+  margin-top: 0.85rem;
+  font-family: var(--font-sans);
+  font-style: normal;
+  font-size: 0.7rem;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--muted2);
 }
 .values-head {
   text-align: center;

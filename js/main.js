@@ -138,7 +138,7 @@
         '<div class="bag-items"></div>' +
         '<div class="bag-foot">' +
         '<div class="bag-subtotal"><span>Subtotal</span><strong>$0</strong></div>' +
-        '<p class="bag-note">Prototype checkout — card data is not processed.</p>' +
+        '<p class="bag-note">Checkout preview—card data is not processed yet.</p>' +
         '<button type="button" class="bag-checkout">Proceed to checkout</button>' +
         "</div>" +
         "</aside>";
@@ -313,7 +313,7 @@
       '">Add to Bag</button>' +
       '<a class="product-link-alt" href="shop.html">Continue shopping</a>' +
       "</div>" +
-      '<p class="product-prototype-note">Prototype only — this product detail page and bag are for concept testing.</p>' +
+      '<p class="product-prototype-note">Live preview—product detail and bag; fulfillment and payments connect at launch.</p>' +
       "</div>" +
       "</div>" +
       "</div>" +
@@ -688,7 +688,7 @@
       msgEl.textContent =
         "A confirmation has been sent to " +
         (order.email || "your email") +
-        ". This prototype does not send real messages.";
+        ". This preview does not send email yet.";
     }
     if (idEl) idEl.textContent = order.id;
     if (idWrap) idWrap.hidden = false;
