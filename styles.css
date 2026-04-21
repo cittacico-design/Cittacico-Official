@@ -766,12 +766,6 @@ h1.page-title {
     opacity: 1;
   }
 }
-.hero-scroll span {
-  font-size: 10px;
-  letter-spacing: 0.3em;
-  text-transform: uppercase;
-  color: rgba(245, 240, 235, 0.4);
-}
 .hero-scroll-bar {
   width: 1px;
   height: 2rem;
